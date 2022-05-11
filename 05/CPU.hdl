@@ -84,7 +84,6 @@ CHIP CPU {
 
     DRegister(in=aOut, out=inX, load=mOut04);
 
-
     Or(a=zrOut, b=ngOut, out=orOut02);
     Not(in=orOut02, out=notOut02);
 
